@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Channelling System</title>
+  <link rel="stylesheet" href="indexStyle03.css">
+  <link rel="stylesheet" href="SingUp&In.css">
+  <link rel="stylesheet" href="indexStyle01.css">
+  <link rel="stylesheet" href="loader.css">
+  <link rel="stylesheet" href="indexStyle02.css">
+  <link rel="stylesheet" href="Cardstyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="getData.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="creditCardValidator.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!--======================================Home Page==========================================-->
+  <style>
+    body {
+      background-image: url('images/clip-350.png');
+      background-color: #d798ca;
+
+    }
+  </style>
+
+
+
+  <nav>
+    <a href="#first"><img src="images/icons8-doctors-60.png">
+      <p style="color:white; font-size: 15px;">Channel</p></i>
+    </a>
+    <a href="#second"><img src="images/icons8-sign-up-50.png">
+      <p style="color:white; font-size: 15px;">Sign Up</p></i>
+    </a>
+    <a href="#third"><img src="images/icons8-add-user-male-50.png">
+      <p style="color:white; font-size: 15px;">Sign In</p>
+    </a>
+    <a href="#"><img src="images/icons8-about-50.png">
+      <p style="color:white; font-size: 15px;">Home</p>
+    </a>
+  </nav>
+  <center>
+    <div class='container'>
+      <table style="margin-left: 1px;">
+        <tr>
+          <td style="width: 100%; height:100% ;">
+            <div id="container">
+
+              <div class="product-details">
+
+                <h1>Welcome to E-Channelling System</h1>
+                <span class="hint-star star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+
+                <p class="information">Find Doctors near you
+                  Helping patients connect with their nearest General Practitioner
+                  (GP) or Clinic located islandwide.</p>
+
+                <div class="control">
+
+
+                </div>
+
+
+              </div>
+
+              <div class="product-image">
+
+                <img src="images/standing-in-the-office-smiling-female-doctor-holding-folder.jpeg">
+
+
+
+              </div>
+
+            </div>
+          </td>
+
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="">
+              <div class="containerCard">
+                <div class="card">
+                  <div class="card-header">
+                    <img src="images/e107-dl-buying-medicine-online.jpg" alt="rover" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-teal">Order Medicine</span>
+                    <h4>
+                      You can order Medicine using our system.
+                    </h4>
+                    <p>
+                      Select your preferred pharmacy,order
+                      your prescription medicine.
+                    </p>
+                    <a href="#seven"><button>Order Medicine</button></a>
+                    <div class="user">
+                      <img src="images/icons8-location.gif" alt="user" />
+                      <div class="user-info">
+                        <h5>Location</h5>
+                        <small>islandwide</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <img src="images/Centratel-Give-your-home-care-company-a-competitive-advantage.jpg" alt="ballons" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-purple">HomeCare</span>
+                    <h4>
+                      HomeCare Service from us
+                    </h4>
+                    <p>
+                      This service is for assistance in monitoring COVID 19 positive asymptomatic
+                      and mildly symptomatic patients</p>
+                    <a href="#eigth"><button>HomeCare</button></a>
+                    <div class="user">
+                      <img src="Images/icons8-home.gif" alt="user" />
+                      <div class="user-info">
+                        <h5>HomeCare</h5>
+                        <small>24 Hours</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <img src="images/shutterstock_293967086 (2).jpg" alt="city" />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-pink">Lab Tests</span>
+                    <h4>
+                      Laboratory tests are avalable.
+                    </h4>
+                    <p>
+                      eChannelling now enables you to get all your
+                      laboratory tests done from home and have the
+                      reports delivered right to your doorstep!
+                    </p>
+                    <a href="#nine"><button>Lab Tests</button></a>
+                    <div class="user">
+                      <img src="Images/icons8-test-tube.gif" alt="user" />
+                      <div class="user-info">
+                        <h5>Laboratory</h5>
+                        <small>24 hours</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </center>
+  <!--=============================Challing into Page===========================================-->
+  <section id='first'>
+    <div class="container1">
+      <table>
+        <tr>
+          <th>
+            <h1 style="color:rgb(24, 21, 21)">E-Channelling<br>System.&#10084;<br><br> <a
+                href="#second"></i><button>Sign
+                  Up</button></a><a href="#third"><button>Sign In</button></a></h1>
+            <small>Helping patients connect with their nearest General Practitioner
+              (GP) or Clinic located island-wide.</small>
+          </th>
+          <th style="width:50%; height: 50%;">
+            <img src="Images/urban-916.gif" style="width:100%; height:100% ;">
+          </th>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+  <!--=============================Sign Up Page===========================================-->
+  <section id="second">
+    <form id="form" method="post">
+      <table>
+        <td>
+          <img src="Images/pablita-doctor-in-a-phone-with-pills.png" style="width:100%; height:100% ;">
+        </td>
+        <td style="width: 50%;">
+
+          <div>
+            <h2>Sign Up</h2><br>
+            <div class="input-control">
+              <label for="username">Name</label>
+              <input id="username" name="Name" type="text">
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="email">Email</label>
+              <input id="email" name="EMail" type="email">
+              <div class="error"></div>
+            </div>
+          </div>
+          <div class="input-control">
+            <label for="Phone_number">Phone Number</label>
+            <input id="phone" name="Telephone" type="text">
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="password">password</label>
+            <input id="password" name="password" type="password">
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="password">Re-Enter Password </label>
+            <input id="password2" name="password2" type="password">
+            <div class="error"></div>
+          </div>
+          <button type="submit" onclick="validate()">Sign Up</button>
+
+
+
+          </div>
+
+        </td>
+      </table>
+
+    </form>
+  </section>
+  <!--=============================Sign In Page===========================================-->
+  <section id="third">
+    <form id="form" method="post" name="loginform">
+      <table>
+        <td>
+          <img src="Images/pablita-doctor-in-a-phone-with-pills.png" style="width:100%; height:100% ;">
+        </td>
+
+        <td style="width: 50%;">
+          <div>
+            <h2>Sign In</h2><br>
+
+            <div class="input-control">
+              <label>Email or Phone Number</label>
+              <input type="text" id="username" name="user_name" />
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <label>Password</label>
+              <input type="password" id="password" name="pass_word" />
+              <div class="error"></div>
+            </div>
+
+            <button type="submit" onclick="login()" value="Login" id="submit">Sign In</button>
+
+          </div>
+        </td>
+      </table>
+    </form>
+
+  </section>
+  <!--============================= Appoinment Page ===========================================-->
+  <section id="fourth">
+    <div class="sec">
+      <div class="main">
+        <form method="get" class="form" id="form" action="#five">
+
+          <table>
+            <tr>
+              <td><img src="Images/doctor.png" style="width:100%; height:100% ;"></td>
+              <td style="width: 50%;">
+                <h2>Appoinment here</h2><br>
+                <div class="input-control">
+                  <datalist id="Doctor">
+                    <option value="Dr.Chaminda Jayasena">
+                    <option value="Dr.Nihal Peeris">
+                    <option value="Dr.Chandrasiri Mathita">
+                    <option value="Dr.Aslam Kadermeera">
+                    <option value="Dr.Rajith Eranga">
+                  </datalist>
+                  <label for="Doctor">Doctor:</label><br>
+                  <input list="Doctor" id="doctor" name="doctor">
+                  <br>
+                </div>
+                <div class="input-control">
+                  <datalist id="Hospital">
+                    <option value="Asiri Health">
+                    <option value="Nawaloka Hospital">
+                    <option value="Hemas Hospitals">
+                    <option value="Kings hospital Colombo">
+                    <option value="Royal Hospital">
+                  </datalist>
+                  <label for="Hospital">Any Hospital:</label><br>
+                  <input list="Hospital" id="hospital" name="hospital"><br>
+                </div>
+                <div class="input-control">
+                  <datalist id="Specialization">
+                    <option value="Cardiology">
+                    <option value="Anesthesiology">
+                    <option value="Immunology">
+                    <option value="Psychiatrist">
+                    <option value="Child and adolescent psychiatry">
+                  </datalist>
+                  <label for="cars">Any Specialization:</label><br>
+                  <input list="Specialization" id="specialization" name="specialization"><br>
+                </div>
+                <div class="input-control">
+                  <label for="Date">Any Date:</label><br>
+                  <input type="date" id="datepiker" name="datepiker"><br><br>
+                </div>
+                <button type="submit" name="search" value="submit" onclick="getParameterByName(name, url)"
+                  class="search">Search</button>
+              </td>
+            </tr>
+          </table>
+
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--============================= Doctor's details Page ===========================================-->
+  <section id="five">
+
+    <div class="sec">
+      <div class="container1">
+        <div class="header1">
+          <h2>
+            <center>Doctor's details</center>
+          </h2><br>
+        </div>
+        <form method="post" aclass="form1" id="form" action="#six">
+
+          <div class="">
+            <img src="Images/doctor1.png" alt="Picture of Doctor" align="right" border="1px"
+              style="width:30%; height:30% ;">
+            <label>Doctor Name</label><br>
+            <h2 id="write1"></h2><br>
+          </div><br>
+
+          <div class="">
+            <label>Hospital:</label><br>
+            <h2 id="write2"></h2><br>
+          </div><br>
+          <div class="">
+            <label>Specialization:</label><br>
+            <h2 id="write3"></h2><br>
+          </div><br><br>
+          <div class="">
+            <label>Date:</label><br>
+            <h2 id="write4"></h2><br>
+          </div><br><br>
+          <div class="input-control">
+            <label>Enter your email address:</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div>
+            <button type="submit" value="submit" id="submit">Channel</button><br>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--=============================Massage Page01 ===========================================-->
+  <section id="six">
+
+
+    <div class="container1">
+      <div class="header1">
+        <h2>
+          <center>Your Channelling is successed.<br><a href="#"><img src="Images/icons8-cloud-done-48.png"></a>
+          </center>
+        </h2><br>
+      </div>
+
+
+
+      <table>
+        <tr>
+          <td style="width: 20%;"></td>
+          <td style="width: 20%;">
+            <h2>“Hope you get to feeling better soon..!”
+            </h2>
+          </td>
+          <td style="width: 40%;"><img src="Images/doctor1.png" alt="Picture of Doctor" align="right"
+              style="width:100%; height:100% ;"></td>
+        </tr>
+      </table>
+
+
+
+    </div>
+
+
+
+  </section>
+
+  <!--============================= Medicin order page ===========================================-->
+  <section id="seven">
+
+
+    <div class="container1">
+
+      <form id="form" name="loginform1" method="post">
+        <table>
+          <td>
+            <img src="Images/clip-950.png" style="width:100%; height:100%;">
+          </td>
+          <td style="width: 50%;">
+
+            <div>
+              <h2>Order Medicine</h2><br>
+              <div class="input-control">
+                <label for="username">Patient Name</label>
+                <input id="username" name="Name" type="text" />
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <label for="email">Area</label>
+                <input id="email" name="EMail" type="text" />
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="input-control">
+              <label for="pharmacy_">Pharmacy</label>
+              <input id="pharmacy" name="Pharmacy" type="text" />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="number_">Phone number</label>
+              <input id="number" name="Phone_number" type="number" />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="password">Upload Prescription (Image only)* </label>
+              <input type="file" id="myfile" name="myfile">
+              <div class="error"></div>
+            </div>
+            <button type="submit" onclick="medicine()" value="Login" id="submit">Submit</button>
+
+
+
+    </div>
+
+    </td>
+    </table>
+
+    </form>
+
+
+
+    </div>
+
+
+
+  </section>
+  <!--============================= HomeCare Page ===========================================-->
+  <section id="eigth">
+
+
+    <div class="container1">
+      <div class="header1">
+        <h2>
+          <center>HomeCare&#10084</center>
+        </h2><br>
+      </div>
+
+
+
+      <table id="customers">
+        <tr>
+          <th>Package name</th>
+          <th>Price</th>
+          <th>Action</th>
+        </tr>
+
+        <tr>
+          <td>Home Care Package-Basic<br>
+
+            * DEDICATED DOCTOR CONSULTAION<br> AND MONITORING VIA AUDIO/VIDEO FOR 7 DAYS</td>
+          <td>Rs.4500</td>
+          <td><a href="#Card"><button class="button">Book Now</button></a></td>
+        </tr>
+
+        <tr>
+          <td>Mother Care Package
+            * Monthly subscription<br>
+            * Two Tele-Channeling per month with the Family Physician<br>
+            * 24/7 Clinical assistance<br>
+            * One online Physio session<br>
+            * Medicine delivery - Pay per use</td>
+          <td>Rs.4999</td>
+          <td><a href="#Card"><button class="button">Book Now</button></a></td>
+        </tr>
+        <tr>
+          <td>Home Care Package with Oximeter- Under test<br>* DEDICATED DOCTOR CONSULTAION AND <br>
+            MONITORING VIA AUDIO/VIDEO FOR 7 DAYS<br>
+            * OXIMETER</td>
+          <td>Rs.8500</td>
+          <td><a href="#Card"><button class="button">Book Now</button></a></td>
+        </tr>
+        <tr>
+          <td>Home Care Family Package<br>
+            * DEDICATED DOCTOR CONSULTAION AND <br>
+            MONITORING VIA AUDIO/VIDEO FOR 7<br> DAYS UPTO 4 MEMBERS</td>
+          <td>Rs.12000</td>
+          <td><a href="#Card"><button class="button">Book Now</button></a></td>
+        </tr>
+      </table>
+
+
+
+    </div>
+
+
+
+  </section>
+  <!--============================= Laboratory Page ===========================================-->
+  <section id="nine">
+
+
+    <div class="container1">
+      <form id="form" method="post" name="loginform2">
+        <table>
+          <td>
+            <img src="Images/clip-1629.png" style="width:100%; height:100% ;">
+          </td>
+          <td style="width: 50%;">
+
+            <div>
+              <h2>Laboratory testing</h2><br>
+              <div class="input-control">
+                <label for="username">Patient Name</label>
+                <input id="username" name="Name" type="text">
+                <div class="error"></div>
+              </div>
+              <div class="input-control">
+                <label for="email">Area</label>
+                <input id="email" name="EMail" type="text">
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="input-control">
+              <label for="Phone_number">Lab</label>
+              <input id="lab" name="Lab" type="text">
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="password">Phone number</label>
+              <input id="phone_number" name="Phone_number" type="text">
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="password">Upload Prescription (Image only)* </label>
+              <input type="file" id="myfile" name="myfile">
+              <div class="error"></div>
+            </div>
+            <button type="submit" onclick="Laboratory()">Submit</button>
+
+
+
+    </div>
+
+    </td>
+    </table>
+
+    </form>
+
+
+
+
+    </div>
+
+
+
+  </section>
+  <!--============================= Cradit Card Page ===========================================-->
+  <section id="Card">
+
+
+    <div class="card-bounding">
+      <div class="header1">
+        <aside>Card Number:</aside>
+        <div class="card-container">
+          <!--- ".card-type" is a sprite used as a background image with associated classes for the major card types, providing x-y coordinates for the sprite --->
+          <div class="card-type"></div>
+          <input placeholder="0000 0000 0000 0000" onkeyup="$cc.validate(event)" />
+          <!-- The checkmark ".card-valid" used is a custom font from icomoon.io --->
+          <div class="card-valid">&#xea10;</div>
+        </div>
+
+        <div class="card-details clearfix">
+
+          <div class="expiration">
+            <aside>Expiration Date</aside>
+            <input onkeyup="$cc.expiry.call(this,event)" maxlength="7" placeholder="mm/yyyy" />
+          </div>
+
+          <div class="cvv">
+            <aside>CVV</aside>
+            <input placeholder="XXX" />
+          </div>
+
+        </div>
+        <center><a href="#msg3"><button type="submit">Pay Now</button></a></center>
+      </div>
+
+    </div>
+
+  </section>
+  <!--============================= Massage Page02 ===========================================-->
+  <section id="msg1">
+
+
+    <div class="container1">
+      <div class="header1">
+        <h2>
+          <center>Your Order has been proccesed.<br><a href="#"><img src="Images/icons8-cloud-done-48.png"></a>
+          </center>
+        </h2><br>
+      </div>
+
+
+
+      <table>
+        <tr>
+          <td style="width: 20%;"></td>
+          <td style="width: 20%;">
+            <h2>“Your order will be received soon..!,Helthy day”
+            </h2>
+          </td>
+          <td style="width: 40%;"><img src="Images/clip-950.png" alt="Picture of Doctor" align="right"
+              style="width:100%; height:100% ;"></td>
+        </tr>
+      </table>
+
+
+
+    </div>
+  </section>
+  <!--============================= Massage Page03 ===========================================-->
+  <section id="msg2">
+
+
+    <div class="container1">
+      <div class="header1">
+        <h2>
+          <center>Your Report has been proccesed.<br><a href="#"><img src="Images/icons8-cloud-done-48.png"></a>
+          </center>
+        </h2><br>
+      </div>
+
+
+
+      <table>
+        <tr>
+          <td style="width: 20%;"></td>
+          <td style="width: 20%;">
+            <h2>“Your report will be received soon..!,Helthy day”
+            </h2>
+          </td>
+          <td style="width: 40%;"><img src="Images/clip-950.png" alt="Picture of Doctor" align="right"
+              style="width:100%; height:100% ;"></td>
+        </tr>
+      </table>
+
+
+
+    </div>
+
+
+
+
+  </section>
+  <!--============================= Massage page04 ===========================================-->
+  <section id="msg3">
+
+
+    <div class="container1">
+      <div class="header1">
+        <h2>
+          <center>Thank You for getting our service!<br><a href="#"><img src="Images/icons8-cloud-done-48.png"></a>
+          </center>
+        </h2><br>
+      </div>
+
+    <table>
+        <tr>
+          <td style="width: 20%;"></td>
+          <td style="width: 20%;">
+            <h2>“Your doctor will contact you soon...!,Helthy day”
+            </h2>
+          </td>
+          <td style="width: 40%;"><img src="Images/clip-950.png" alt="Picture of Doctor" align="right"
+              style="width:100%; height:100% ;"></td>
+        </tr>
+      </table>
+
+</div>
+</section>
+
+
+
+</body>
+
+
+</html>

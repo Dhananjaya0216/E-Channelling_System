@@ -1,0 +1,45 @@
+*{
+   box-sizing:border-box;
+}
+
+
+.container1{
+	 width: 760px;
+     background-color:white;
+     border-radius: 4px;
+     font-size: 15px;
+	 box-shadow:0 2px 5px rgba(0,0,0,0,3);
+	 overflow:hidden;
+	 border-bottom:1px;
+	 
+
+ }
+
+.header1 {
+	background-color:#f7f7f7;
+    text-align:center;
+	border-bottom:3px solid #f0f0f0;
+	padding:10px 20px;
+	
+
+	}
+.header1 h2{
+	margin:0;
+}
+.form1{
+	padding:30px 40px;
+}
+.form1 button {
+	background-color:#5B8EEB;
+	border:1px solid #5B8EEB;
+	border-radius:4px;
+	color:00000;
+	display:block;
+	padding:7px;
+	width:100%;
+	
+}
+
+
+	
+	
