@@ -12,6 +12,6 @@
 
 <h5>Technologies Used</h5>
 <ul>
-  <li><strong>HTML:</strong>strong> Markup language used for structuring the content.</li>
-  <li><strong>CSS:</strong>strong> Styling language used for designing the layout and appearance.</li>
+  <li><strong>HTML:</strong> Markup language used for structuring the content.</li>
+  <li><strong>CSS:</strong> Styling language used for designing the layout and appearance.</li>
 </ul>
